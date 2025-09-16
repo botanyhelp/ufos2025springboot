@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UFO Sightings</title>
+        <link rel="stylesheet" href="/css/styles.css" />
+        <link rel="stylesheet" href="/css/awesomplete.css" />
+        <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet" />
+        <script src="/js/awesomplete.js" async></script>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+    </head>
+    <body>
+
+<!-- App Bar -->
+<!--    
+    <header>
+      <a class="title-link" href="/"><h2>UFO Sightings</h2></a>
+    </header>
+-->
+
+
+<!-- Main Body -->
+    <section class="center-layout">
+<!--    
+    <div align="right">
+      <a class="title-link" href="/">UFO Sightings</a>
+    </div>
+
+    <div align="right">
+          <a class="title-link" href="/"><img src="/images/alien.png" /></a>
+    </div>
+
+DOES NOT HELP:
+    <div class="center-div">
+
+192x192 transparent PNG
+      <img src="/images/alien.png" />
+ -->
+    <div align="right">
+          <a class="title-link" href="/"><h2>UFO Sightings&nbsp;&nbsp;&nbsp;&nbsp;<img src="/images/alien36x36.png" /></h2></a>
+    </div>
+<form id="myForm" action="/multi-field-search" method="post">
+  <label for="locationcity">Search by City:</label>
+  <input type="text" name="locationcity" class="awesomplete" id="city_name" list="citylist">
+  <datalist id="citylist">
+<option>Abbeville</option>
+<option>Abilene</option>
+<option>Adams County</option>
+<option>Adelantlo</option>
+<option>Afton</option>
+<option>Albany</option>
+<option>Albion</option>
+<option>Albuquerque</option>
+<option>Alexandria</option>
+<option>Aliso Viejo</option>
+<option>Allentown</option>
+<option>Altamonte Springs</option>
+<option>Alton</option>
+<option>Altoona</option>
+<option>Ames</option>
+<option>Amory</option>
+<option>Anaheim</option>
+<option>Anaheim Hills</option>
+<option>Angier</option>
+<option>Angola</option>
+<option>Annapolis</option>
+<option>Anniston</option>
+<option>Antelope</option>
+<option>Arbuckle</option>
+<option>Arcadia</option>
+<option>Arctic</option>
+<option>Arlington</option>
+<option>Asbury Park</option>
+<option>Asheville</option>
+<option>Ashland</option>
+<option>Aspers</option>
+<option>Atascadero</option>
+<option>Atlanta</option>
+<option>Attleboro</option>
+<option>Auburn Hills</option>
+<option>Augusta</option>
+<option>Aurora</option>
+<option>Austin</option>
+<option>Avalon</option>
+<option>Avon</option>
+<option>Avon Lake</option>
+<option>Avondale</option>
+<option>Azle</option>
+<option>Aztec</option>
+<option>Azusa</option>
+<option>Baker</option>
+<option>Baker City</option>
+<option>Bakersfield</option>
+<option>Ballymoney</option>
+<option>Baltimore</option>
+<option>Balto City</option>
+<option>Barre</option>
+<option>Barto</option>
+<option>Batavia</option>
+<option>Baton Rouge</option>
+<option>Bayonne</option>
+<option>Beale AFB</option>
+<option>Beckeymeyer</option>
+<option>Belen</option>
+<option>Belfry</option>
+<option>Bellefonte</option>
+<option>Belleville</option>
+<option>Belleville Community College</option>
+<option>Bellflower</option>
+<option>Bellingham</option>
+<option>Bellmore</option>
+<option>Belstville</option>
+<option>Belton</option>
+<option>Berkeley</option>
+<option>Berlin</option>
+<option>Berwick</option>
+<option>Bethel</option>
+<option>Bethesda</option>
+<option>Bettendorf/Davenport</option>
+<option>Betteravia</option>
+<option>Big Bear City</option>
+<option>Big Bend Park</option>
+<option>Billings</option>
+<option>Biloxi</option>
+<option>Binghamton</option>
+<option>Bistolville</option>
+<option>Bloomington</option>
+<option>Bluefield</option>
+<option>Bluffton</option>
+<option>Boca Raton</option>
+<option>Boiling Springs</option>
+<option>Bolingbrook</option>
+<option>Bonaparte</option>
+<option>Bonita Springs</option>
+<option>Boone</option>
+<option>Booneville</option>
+<option>Boonville</option>
+<option>Boston</option>
+<option>Boulder</option>
+<option>Boynton Beach</option>
+<option>Brandon</option>
+<option>Brecksville</option>
+<option>Brentwood</option>
+<option>Brightwaters</option>
+<option>Brooklyn Center</option>
+<option>Brookston</option>
+<option>Brooksville</option>
+<option>Brownsburg</option>
+<option>Brule</option>
+<option>Bucksport</option>
+<option>Buffalo</option>
+<option>Buford</option>
+<option>Burbank</option>
+<option>Burlington</option>
+<option>Butler</option>
+<option>Butte</option>
+<option>Cabazon</option>
+<option>Cairo</option>
+<option>Camarillo</option>
+<option>Camas</option>
+<option>Cambridge</option>
+<option>Cameron Park</option>
+<option>Camp Creek</option>
+<option>Canton</option>
+<option>Canyon</option>
+<option>Cape Coral</option>
+<option>Captain Cook</option>
+<option>Carmel</option>
+<option>Carmichael</option>
+<option>Carnsville</option>
+<option>Carrollton</option>
+<option>Carson</option>
+<option>Carson City</option>
+<option>Cary</option>
+<option>Casa Grande</option>
+<option>Cedar</option>
+<option>Cedar Knolls</option>
+<option>Cedar point/ Emerald Isle/ Swansboro</option>
+<option>Cedar Rapids</option>
+<option>Centerburg</option>
+<option>Centralia</option>
+<option>Chambersburg</option>
+<option>Chandler</option>
+<option>Chapel Hill</option>
+<option>Charelston</option>
+<option>Charleston</option>
+<option>Charlotte</option>
+<option>Chatham</option>
+<option>Chawton</option>
+<option>Chester</option>
+<option>Chesterfield</option>
+<option>Chicago</option>
+<option>Chilhowie</option>
+<option>Chimacum</option>
+<option>Chino</option>
+<option>Chowchilla</option>
+<option>Chula Vista</option>
+<option>Cincinnati</option>
+<option>Citrus heights</option>
+<option>Clark</option>
+<option>Clarks Summit</option>
+<option>Clay Springs</option>
+<option>Clayton</option>
+<option>Clearwater</option>
+<option>Cleveland</option>
+<option>Cliffside</option>
+<option>Clovis</option>
+<option>Cocoa</option>
+<option>Coeur DAlene</option>
+<option>Cohasset</option>
+<option>Collinsville</option>
+<option>Colorado City</option>
+<option>Colorado Springs</option>
+<option>Columbia</option>
+<option>Columbia City</option>
+<option>Columbia Falls</option>
+<option>Columbiana</option>
+<option>Columbus</option>
+<option>Commack</option>
+<option>Como</option>
+<option>Compton</option>
+<option>Concord</option>
+<option>Converse</option>
+<option>Cookeville</option>
+<option>Coolidge</option>
+<option>Cooperstown</option>
+<option>Coos Bay</option>
+<option>Copiague</option>
+<option>Coral Springs</option>
+<option>Corona</option>
+<option>Corpus Christi</option>
+<option>Cossayuna</option>
+<option>Costa Mesa</option>
+<option>Cotati</option>
+<option>Covingtion</option>
+<option>Covington</option>
+<option>Cranston</option>
+<option>Crescent City</option>
+<option>Creve Coeur</option>
+<option>Croton-on-Hudson</option>
+<option>Crozet</option>
+<option>Crystal Lake</option>
+<option>Culpepper</option>
+<option>Culver City</option>
+<option>Cumberland</option>
+<option>Dacula</option>
+<option>Dadeville</option>
+<option>Dallas</option>
+<option>Daly City</option>
+<option>Danbury</option>
+<option>Dandridge</option>
+<option>Danville</option>
+<option>Darien</option>
+<option>Davis</option>
+<option>Dayton</option>
+<option>Decatur</option>
+<option>Deer Park</option>
+<option>Delano</option>
+<option>Delft</option>
+<option>Demarest</option>
+<option>Deming</option>
+<option>Denver near Aurora</option>
+<option>DePere</option>
+<option>Derry</option>
+<option>Des Moines</option>
+<option>DeSmet</option>
+<option>Detroit</option>
+<option>Dewsbury</option>
+<option>Diamond Bar</option>
+<option>Dickson City</option>
+<option>Dover</option>
+<option>Downingtown</option>
+<option>Dublin</option>
+<option>Duluth</option>
+<option>Dunlo</option>
+<option>Durango</option>
+<option>Eagle</option>
+<option>East Bethel</option>
+<option>East Bridgewater</option>
+<option>East Haddam</option>
+<option>East Haven</option>
+<option>East Mesa</option>
+<option>East Norriton</option>
+<option>East Otis</option>
+<option>Eastland</option>
+<option>Edgewood</option>
+<option>Edison</option>
+<option>Edwards</option>
+<option>Effingham</option>
+<option>Egg Harbor</option>
+<option>El Cajon</option>
+<option>El Monte</option>
+<option>El Paso</option>
+<option>El Toro</option>
+<option>Eleva</option>
+<option>Elgin</option>
+<option>Elizaville</option>
+<option>Elko</option>
+<option>Elmira</option>
+<option>Emmett</option>
+<option>Encinitas</option>
+<option>Endicott</option>
+<option>Enfield</option>
+<option>Englewood</option>
+<option>Enumclaw</option>
+<option>Ephrata</option>
+<option>Erie</option>
+<option>Escondido</option>
+<option>Essecville</option>
+<option>Estes Park</option>
+<option>Eugene</option>
+<option>Eureka</option>
+<option>Evans</option>
+<option>Evart</option>
+<option>Everett</option>
+<option>Exeter</option>
+<option>Fair Oaks</option>
+<option>Fairbanks</option>
+<option>Fairborn</option>
+<option>Fairfax</option>
+<option>Fairview</option>
+<option>Farmers Branch</option>
+<option>Farmville</option>
+<option>Fayetteville</option>
+<option>Federal Way</option>
+<option>Feltham</option>
+<option>Fenton</option>
+<option>Fernley</option>
+<option>Fitchville</option>
+<option>Flagstaff</option>
+<option>Flat Rock</option>
+<option>Fleetwood</option>
+<option>Flint</option>
+<option>Florence</option>
+<option>Florissant</option>
+<option>Flourtown</option>
+<option>Fort Dodge</option>
+<option>Fort Lauderdale</option>
+<option>Fort Meade</option>
+<option>Fort Myers</option>
+<option>Fort Wayne</option>
+<option>Fort Worth</option>
+<option>Fountain Hills</option>
+<option>Framingham</option>
+<option>Frankfort</option>
+<option>Fredericksburg</option>
+<option>Fremont</option>
+<option>Fresno</option>
+<option>Ft. Lauderdale</option>
+<option>Ft. Lee</option>
+<option>Fullerton</option>
+<option>Fulton</option>
+<option>Gadsden</option>
+<option>Gainesville</option>
+<option>Gaithersburg</option>
+<option>Garden City</option>
+<option>Gary</option>
+<option>Gasport</option>
+<option>Georgetown</option>
+<option>Gerald</option>
+<option>Gila Bend</option>
+<option>Gilbert</option>
+<option>Glencoe</option>
+<option>Glenmont</option>
+<option>Glenside</option>
+<option>Gold Bar</option>
+<option>Golden Valley</option>
+<option>Gonzales</option>
+<option>Goodland</option>
+<option>Graham</option>
+<option>Graham County</option>
+<option>Granbury</option>
+<option>Granby</option>
+<option>Grand Junction</option>
+<option>Grand Rapids</option>
+<option>Grandview</option>
+<option>Great Falls</option>
+<option>Green Bay</option>
+<option>Greeneville</option>
+<option>Greensboro</option>
+<option>Greensville</option>
+<option>Greenwood</option>
+<option>Greenwood Village</option>
+<option>Gresham</option>
+<option>Griffin</option>
+<option>Groton</option>
+<option>Gulf Shores</option>
+<option>Gulfport</option>
+<option>Hallandale</option>
+<option>Hammond</option>
+<option>Hampstead</option>
+<option>Hanceville</option>
+<option>Hanford</option>
+<option>Hansville</option>
+<option>Harbor Springs</option>
+<option>Harrisburg</option>
+<option>Hartville</option>
+<option>Hatfield</option>
+<option>Haylow</option>
+<option>Hayward</option>
+<option>Hazelwood/Florissant Uncorp.</option>
+<option>Heber City</option>
+<option>Helendale</option>
+<option>Henderson</option>
+<option>Hermitage</option>
+<option>Hialeah Gardens</option>
+<option>High Point</option>
+<option>High Ridge</option>
+<option>Highlands</option>
+<option>Hilo</option>
+<option>Hodgkins</option>
+<option>Holden Beach</option>
+<option>Holland</option>
+<option>Hollis</option>
+<option>Hollywood</option>
+<option>Holmdel</option>
+<option>Honolulu</option>
+<option>Hooper</option>
+<option>Hoquiam</option>
+<option>Horry County</option>
+<option>Horseheads</option>
+<option>Houston</option>
+<option>Howell</option>
+<option>Huntersville</option>
+<option>Huntington</option>
+<option>Huntington Beach</option>
+<option>Huntington Park</option>
+<option>Huntsville</option>
+<option>Hurricane</option>
+<option>Hutchinson</option>
+<option>Hyannisport</option>
+<option>Hyde Park</option>
+<option>Indianapolis</option>
+<option>Indianola</option>
+<option>Inola</option>
+<option>Inverness</option>
+<option>Iron River</option>
+<option>Ironton</option>
+<option>Ironwood</option>
+<option>Irvine</option>
+<option>Irvington</option>
+<option>Jackson</option>
+<option>Jacksonville</option>
+<option>Jamaica</option>
+<option>James Island</option>
+<option>Jellico</option>
+<option>Jericho</option>
+<option>Jerome</option>
+<option>Jersey City</option>
+<option>Jessup</option>
+<option>Johnson City</option>
+<option>Johnstown</option>
+<option>Jonesboro</option>
+<option>Joppatowne</option>
+<option>Joshua Tree</option>
+<option>Jupiter</option>
+<option>Kalispell</option>
+<option>Kaneohe</option>
+<option>Kansas</option>
+<option>Kansas City</option>
+<option>Keene</option>
+<option>Kendall</option>
+<option>Kenner</option>
+<option>Kenosha</option>
+<option>Kent</option>
+<option>Kerman</option>
+<option>Kern</option>
+<option>Kiel</option>
+<option>Kingman</option>
+<option>Kingsford</option>
+<option>Kingston</option>
+<option>Kingsville</option>
+<option>Kissimmee</option>
+<option>Kittanning</option>
+<option>Kittatas</option>
+<option>Kitty Hawk</option>
+<option>Klamath Falls</option>
+<option>Knoxville</option>
+<option>Kokomo</option>
+<option>La Farge</option>
+<option>La Plata</option>
+<option>Laconia</option>
+<option>Lafayette</option>
+<option>Lagrange</option>
+<option>Laguna Beach</option>
+<option>Laguna Hills</option>
+<option>Laguna Niguel</option>
+<option>Lake Buena Vista</option>
+<option>Lake Charles</option>
+<option>Lake Dallas</option>
+<option>Lake Elsinore</option>
+<option>Lake Jackson</option>
+<option>Lake Shasta Resort</option>
+<option>Lake Stevens</option>
+<option>Lake Tapps</option>
+<option>Lake Worth</option>
+<option>Lakeville</option>
+<option>Lakewood</option>
+<option>Lancaster</option>
+<option>Land OLakes</option>
+<option>Langley</option>
+<option>Lanoka Harbor</option>
+<option>Lansing</option>
+<option>LaPorte</option>
+<option>Las Cruces</option>
+<option>Las Vegas</option>
+<option>Latrobe</option>
+<option>Laughlin</option>
+<option>Laurel</option>
+<option>Laurel Springs</option>
+<option>Lawrence</option>
+<option>Lawrenceburg</option>
+<option>Laytonsville</option>
+<option>Leavenworth</option>
+<option>Lebanon</option>
+<option>Leeds</option>
+<option>Lehigh Acres</option>
+<option>Lenzburg</option>
+<option>Levittown</option>
+<option>Lewisville</option>
+<option>Lexington</option>
+<option>Liberal</option>
+<option>Lihue</option>
+<option>Lindenhurst</option>
+<option>Lisbon</option>
+<option>Littleton</option>
+<option>Liverpool</option>
+<option>Livingston</option>
+<option>Lockport</option>
+<option>Lodi</option>
+<option>Londonderry</option>
+<option>Lonoke</option>
+<option>Lopez Island</option>
+<option>Los Alamos</option>
+<option>Los Angeles</option>
+<option>Los Angeles County</option>
+<option>Los Banos</option>
+<option>Los Padres National Forest</option>
+<option>Louisburg</option>
+<option>Louisville</option>
+<option>Ludington</option>
+<option>Lynden</option>
+<option>Lynn</option>
+<option>Macomb</option>
+<option>Madison</option>
+<option>Mahanoy</option>
+<option>Manchester</option>
+<option>Manilla</option>
+<option>Mansfield</option>
+<option>Maple Falls</option>
+<option>Marathon</option>
+<option>Marblehead</option>
+<option>Marietta</option>
+<option>Marion</option>
+<option>Marked Tree</option>
+<option>Marley Park</option>
+<option>Marshall</option>
+<option>Marshalltown</option>
+<option>Martinsville</option>
+<option>Mattituck</option>
+<option>Maui</option>
+<option>Mayfield</option>
+<option>McCall</option>
+<option>McDonough</option>
+<option>McKinleyville</option>
+<option>McKinney</option>
+<option>Memphis</option>
+<option>Mentor</option>
+<option>Merced</option>
+<option>Meriden</option>
+<option>Mesa</option>
+<option>Miami</option>
+<option>Miami Beach</option>
+<option>Middletown</option>
+<option>Midland</option>
+<option>Midlothian</option>
+<option>Milan</option>
+<option>Milford</option>
+<option>Millville</option>
+<option>Milwaukee</option>
+<option>Minneapolis</option>
+<option>Missoula</option>
+<option>Mitchell</option>
+<option>Moab</option>
+<option>Mobile</option>
+<option>Mohnton</option>
+<option>Mokena</option>
+<option>Molalla</option>
+<option>Molson</option>
+<option>Monmouth</option>
+<option>Monongahela</option>
+<option>Monroe</option>
+<option>Montara</option>
+<option>Montclair</option>
+<option>Monticello</option>
+<option>Morganton</option>
+<option>Morrilton</option>
+<option>Morristown</option>
+<option>Moses Lake</option>
+<option>Moultrie</option>
+<option>Mount Ida</option>
+<option>Mount Shasta</option>
+<option>Mundelein</option>
+<option>Muskegon</option>
+<option>Myrtle Beach</option>
+<option>Myrtle Creek</option>
+<option>Nahunta</option>
+<option>Napa</option>
+<option>Nashville</option>
+<option>Nason</option>
+<option>Natchez</option>
+<option>Navajo Lake</option>
+<option>Nederland</option>
+<option>New Braunfels</option>
+<option>New Brunswick</option>
+<option>New Carrollton</option>
+<option>New Castle</option>
+<option>New Florence</option>
+<option>New Hartford</option>
+<option>New Jersey Graden State Parkway</option>
+<option>New Kensignton</option>
+<option>New Mexico</option>
+<option>New Milford</option>
+<option>New Orleans</option>
+<option>New York City</option>
+<option>Newark</option>
+<option>Newberg</option>
+<option>Newburgh</option>
+<option>Newport</option>
+<option>Newport Coast</option>
+<option>Newton</option>
+<option>Niagara Falls</option>
+<option>Niles</option>
+<option>Noble</option>
+<option>Normal</option>
+<option>Norman</option>
+<option>North Bend</option>
+<option>North East</option>
+<option>North Kingstown</option>
+<option>North Las Vegas</option>
+<option>North Miami Beach</option>
+<option>North Myrtle Beach</option>
+<option>North Myrtle Beach Ocean Drive</option>
+<option>North Myrtle Beach/Cherry Groove</option>
+<option>North Tonawanda</option>
+<option>Northbrook</option>
+<option>Northfield</option>
+<option>Northridge</option>
+<option>Novi Sad</option>
+<option>Oak Harbor</option>
+<option>Oak Island</option>
+<option>Oak Ridge</option>
+<option>Oakland</option>
+<option>Oakwood</option>
+<option>Ocalawaha</option>
+<option>Ocean City</option>
+<option>Odessa</option>
+<option>Ogden</option>
+<option>Ogdensburg</option>
+<option>Oklahoma City</option>
+<option>Old Forge</option>
+<option>Old Westbury</option>
+<option>Onalaska</option>
+<option>Oneida</option>
+<option>Orange</option>
+<option>Orchard Park</option>
+<option>Orem</option>
+<option>Orinda</option>
+<option>Orland</option>
+<option>Orland Park</option>
+<option>Orland Park/Palos Park</option>
+<option>Orlando</option>
+<option>Orofino</option>
+<option>Oroville</option>
+<option>Ossipee</option>
+<option>Ottawa</option>
+<option>Overland Park</option>
+<option>Owatonna</option>
+<option>Pacoima</option>
+<option>Pageland</option>
+<option>Palatine</option>
+<option>Palm Harbor</option>
+<option>Palmdale</option>
+<option>Palmyra</option>
+<option>Paramount</option>
+<option>Paris</option>
+<option>Parker</option>
+<option>Parkersburg</option>
+<option>Parkville</option>
+<option>Parma</option>
+<option>Parrish</option>
+<option>Pasadena</option>
+<option>Paso Robles</option>
+<option>Pasquag</option>
+<option>Paw Paw</option>
+<option>Payson</option>
+<option>Pearland</option>
+<option>Pekin</option>
+<option>Penn Valley</option>
+<option>Pennsauken</option>
+<option>Pensacola</option>
+<option>Peoria</option>
+<option>Peru</option>
+<option>Pewaukee</option>
+<option>Philipsburg</option>
+<option>Phillipsburg</option>
+<option>Phippsburg</option>
+<option>Phoenix</option>
+<option>Phoenxiville</option>
+<option>Pioneer Town</option>
+<option>Pittsburgh</option>
+<option>Placervile</option>
+<option>Placerville</option>
+<option>Placitas</option>
+<option>Plano</option>
+<option>Plant City</option>
+<option>Pleasant Valley</option>
+<option>Pleasantville</option>
+<option>Plymouth</option>
+<option>Plymouth Borough</option>
+<option>Pocatello</option>
+<option>Pomona</option>
+<option>Port Jefferson Station</option>
+<option>Port Orchard</option>
+<option>Port Orford</option>
+<option>Port St. Lucie</option>
+<option>Portage</option>
+<option>Portland</option>
+<option>Potomac</option>
+<option>Pottsburo</option>
+<option>Pottsville</option>
+<option>Poughkeepsie</option>
+<option>Poulsbo</option>
+<option>Poway</option>
+<option>Prescott</option>
+<option>Presque Isle</option>
+<option>Price</option>
+<option>Princeton</option>
+<option>Providence</option>
+<option>Pueblo</option>
+<option>Puerto Ordaz</option>
+<option>Pulaski</option>
+<option>Pullmam</option>
+<option>Pulsano</option>
+<option>Puyallup</option>
+<option>Queensbury</option>
+<option>Rachel</option>
+<option>Raleigh</option>
+<option>Ramona</option>
+<option>Ramseur</option>
+<option>Rancho Santa Margarita</option>
+<option>Rapid City</option>
+<option>Raymore</option>
+<option>Reading</option>
+<option>Redding</option>
+<option>Redmond</option>
+<option>Rehoboth Beach</option>
+<option>Reno</option>
+<option>Rensselaer</option>
+<option>Republic</option>
+<option>Richardson</option>
+<option>Richboro</option>
+<option>Richland</option>
+<option>Richmond</option>
+<option>Ridgecrest</option>
+<option>Ridgefield</option>
+<option>Ridgewood</option>
+<option>Riggins</option>
+<option>Rio Rancho</option>
+<option>Rio Rico</option>
+<option>Riverhead</option>
+<option>Riverside</option>
+<option>Riverton</option>
+<option>Riverview</option>
+<option>Riveside</option>
+<option>Roachdale</option>
+<option>Roanoke</option>
+<option>Rochester</option>
+<option>Rochester Hills</option>
+<option>Rockford</option>
+<option>Rockport</option>
+<option>Rodeo</option>
+<option>Rome</option>
+<option>Romeo</option>
+<option>Romney</option>
+<option>Ronkonkoma</option>
+<option>Roseburg</option>
+<option>Roseville</option>
+<option>Rothschild</option>
+<option>Royal Palm Beach</option>
+<option>Rumford</option>
+<option>Russellton</option>
+<option>Russellville</option>
+<option>rutland</option>
+<option>Rye</option>
+<option>Sacramento</option>
+<option>Safety Harbor</option>
+<option>Saint Paul</option>
+<option>Salem</option>
+<option>Salinas</option>
+<option>Salt Lake City</option>
+<option>San Antonio</option>
+<option>San Antonio/Elmendorf</option>
+<option>San Carlos Apache Reservation</option>
+<option>San Clemente</option>
+<option>San Diego</option>
+<option>San Francisco</option>
+<option>San Jacinto</option>
+<option>San Jose</option>
+<option>San Luis Obispo</option>
+<option>San Pedro</option>
+<option>San Ramon</option>
+<option>San Saba</option>
+<option>Sanbornton</option>
+<option>Sandpoint</option>
+<option>Santa Barbara</option>
+<option>Santa Clarita Valley</option>
+<option>Santa Cruz</option>
+<option>Santa Fe</option>
+<option>Santa Monica</option>
+<option>Santa Paula</option>
+<option>Santa Ynez</option>
+<option>Santee</option>
+<option>Sarasota</option>
+<option>Saugerties</option>
+<option>Sausalito</option>
+<option>Saylorsburg</option>
+<option>Sayreville</option>
+<option>Schaumburg</option>
+<option>Schererville</option>
+<option>Scotland</option>
+<option>Scottsdale</option>
+<option>Seaford</option>
+<option>Seattle</option>
+<option>Sebring</option>
+<option>Shakopee</option>
+<option>Shallotte</option>
+<option>Shamokin</option>
+<option>Sharon</option>
+<option>Shasta Lake</option>
+<option>Sheboygan Falls/Kohler</option>
+<option>Shell Knob</option>
+<option>Shingletown</option>
+<option>Shongaloo</option>
+<option>Show Low</option>
+<option>Silesia</option>
+<option>Silver Lake</option>
+<option>Silver Spring Twp.</option>
+<option>Simi Valley</option>
+<option>Simsbury</option>
+<option>Sioux City</option>
+<option>Sioux Falls</option>
+<option>Skowhegan</option>
+<option>Smackover</option>
+<option>Smethport</option>
+<option>Smithton</option>
+<option>Snellville</option>
+<option>Snohomish</option>
+<option>Sodus</option>
+<option>Sonora</option>
+<option>South Harrisburg</option>
+<option>South Lake Tahoe</option>
+<option>South Lyon</option>
+<option>South Point</option>
+<option>South Salt Lake City</option>
+<option>Southington</option>
+<option>Spokane</option>
+<option>Spring</option>
+<option>Springfield</option>
+<option>Springville</option>
+<option>St Charles</option>
+<option>St. Charles</option>
+<option>St. George Island</option>
+<option>St. Louis</option>
+<option>St. Peters</option>
+<option>St. Robert/Fort Leonard Wood</option>
+<option>St.Charles</option>
+<option>Stanwood</option>
+<option>Starkville</option>
+<option>Staten Island</option>
+<option>Steeleville</option>
+<option>Stephenville</option>
+<option>Stephenville/Dublin</option>
+<option>Sterling Heights</option>
+<option>Stevensville</option>
+<option>Stinnett</option>
+<option>Stockbridge</option>
+<option>Stockton</option>
+<option>Stoughton/Cooksville area</option>
+<option>Strattanville</option>
+<option>Straughn</option>
+<option>Strongsville</option>
+<option>Stuart</option>
+<option>Suffolk</option>
+<option>Summers</option>
+<option>Supply</option>
+<option>Surry County</option>
+<option>Sussex City</option>
+<option>Swannanoa</option>
+<option>Sylmar</option>
+<option>Sylvania</option>
+<option>Tacoma</option>
+<option>Tacoma area</option>
+<option>Talladega</option>
+<option>Tampa</option>
+<option>Tecumseh</option>
+<option>Temecula</option>
+<option>Tempe</option>
+<option>Temple</option>
+<option>Terre Haute</option>
+<option>Thackery</option>
+<option>Thononasassa</option>
+<option>Thornton</option>
+<option>Tooele</option>
+<option>Topeka</option>
+<option>Toronto National Forest</option>
+<option>Torrance</option>
+<option>Traverse City</option>
+<option>Trenton</option>
+<option>Troutdale</option>
+<option>Truman</option>
+<option>Trumansburg</option>
+<option>Trumbull</option>
+<option>Tucson</option>
+<option>Tulsa</option>
+<option>Tupper Lake</option>
+<option>Tuscaloosa</option>
+<option>Twin Falls</option>
+<option>Twin Mountain</option>
+<option>Union</option>
+<option>unknown</option>
+<option>Upland</option>
+<option>Vancouver</option>
+<option>Vassalboro</option>
+<option>Ventura</option>
+<option>Vermontville</option>
+<option>Vero Beach</option>
+<option>Victorville</option>
+<option>Virginia Beach</option>
+<option>Visalia</option>
+<option>Vista</option>
+<option>Wabash</option>
+<option>Wading River? Franklin Sq</option>
+<option>Wailea</option>
+<option>Waltham</option>
+<option>Warm Springs</option>
+<option>Warner Town</option>
+<option>Warren</option>
+<option>Warrensburg</option>
+<option>Washington</option>
+<option>Waterbury</option>
+<option>Waterford</option>
+<option>Waterloo</option>
+<option>Watertown</option>
+<option>Watsonville</option>
+<option>Waverly</option>
+<option>Wayne</option>
+<option>Wayzata</option>
+<option>Wellington</option>
+<option>Wellsboro</option>
+<option>Wenatchee</option>
+<option>West Babylon</option>
+<option>West Chester</option>
+<option>West Columbia</option>
+<option>West Dover</option>
+<option>West Hollywood</option>
+<option>West Jordan</option>
+<option>West Milford</option>
+<option>West Palm Beach</option>
+<option>West Seattle</option>
+<option>West Valley</option>
+<option>Western Grove</option>
+<option>Western Springs</option>
+<option>Westminster</option>
+<option>Wheat Ridge</option>
+<option>Wheaton</option>
+<option>Wheeling</option>
+<option>White Plains</option>
+<option>Whittier</option>
+<option>Wichita</option>
+<option>Wicomico</option>
+<option>Wikieup/Kingman</option>
+<option>Wildrose</option>
+<option>Wildwood Crest</option>
+<option>Williston</option>
+<option>Willow Island</option>
+<option>Wilmington</option>
+<option>Window Rock</option>
+<option>Windsor</option>
+<option>Winnsboro</option>
+<option>Winslow</option>
+<option>Winston-Salem</option>
+<option>Winthrop</option>
+<option>Woodinville</option>
+<option>Woodridge</option>
+<option>Woodstock</option>
+<option>Wooten</option>
+<option>Worcester</option>
+<option>Worth</option>
+<option>Wrangell</option>
+<option>Wray</option>
+<option>Yakima</option>
+<option>Yardville</option>
+<option>Yarmouth</option>
+<option>Yelm</option>
+<option>Yi-Ning City</option>
+<option>Yonkers</option>
+<option>York</option>
+<option>Yorkville</option>
+<option>Yreka</option>
+<option>Yuma</option>
+<option>Zapata Falls</option>
+</datalist>
+
+
+  <!-- uncomment for testing to make an alert when choice is submitted:
+<script>
+    //Display records so far:
+    //listen for changes in our form fields
+    document.querySelector("#myForm").addEventListener("submit",
+     function(e) {
+        e.preventDefault();
+        //get all the fields
+        //TTTvar city = document.querySelector("#city_name").value;
+        //TTTalert(city);
+        //TTTconsole.dir(city);
+        init();
+    },false);
+</script>
+-->
+
+  <!-- Search by shape, commented out to keep simple 
+  <label for="shape">Shape:</label>
+  <input type="text" name="shape">
+  -->
+  
+  <button type="submit">Search</button>
+</form>
+
+<form action="/universal-search" method="post">
+  <label for="value">Search by anything:</label>
+  <input type="text" name="value" pattern=".{5,}" required title="5 characters minimum">
+  <button type="submit">Search</button>
+</form>
+
+
+<ul>
+{{#ufosightings}}
+<li><b>Date</b>: {{reportedat}}</li>
+<li><b>City</b>: {{locationcity}}</li>
+<li><b>State</b>: {{locationstate}}</li>
+<li><b>Shape</b>: {{shape}}</li>
+<li><b>Duration</b>: {{duration}}</li>
+<li><b>Description</b>: {{description}}</li>
+
+            <form action="/delete/ufosightings/{{id}}" method="post">
+                <button type="submit" onclick="return confirm('Delete UFO Sighting?')">Delete UFO Sighting {{id}}</button>
+            </form>
+</ul>
+
+  {{/ufosightings}}
+  
+  {{#lastten}}
+    <a href="/page/{{lastten}}">Last 5</a>
+  {{/lastten}}
+  
+  {{#nextten}}
+    <a href="/page/{{nextten}}">Next 5</a>
+  {{/nextten}}
+
+
+<div id="newUfosighting">
+<h2>Report new UFO Sighting:</h2>
+  <form action="/new-ufosighting" method="post">
+<label for="sightedatyear">Year:</label><input type="text" name="sightedatyear" type="number" step="1" pattern="\d+" placeholder="20230308"><br />
+<label for="sightedatmonth">Month:</label><input type="text" name="sightedatmonth" type="number" step="1" pattern="\d+"  placeholder="03"><br />
+<label for="sightedatday">Day:</label><input type="text" name="sightedatday" type="number" step="1" pattern="\d+"  placeholder="14"><br />
+<label for="reportedat">Report Date:</label><input type="text" name="reportedat" type="number" step="1" pattern="\d+"  placeholder="20230308"><br />
+<label for="locationcity">City:</label><input type="text" name="locationcity"  placeholder="Boston"><br />
+<label for="locationstate">State:</label><input type="text" name="locationstate"  placeholder="MA"><br />
+<label for="shape">Shape:</label><input type="text" name="shape"  placeholder="triangle"><br />
+<label for="duration">Duration:</label><input type="text" name="duration"  placeholder="90 seconds"><br />
+<label for="description">Description:</label><input type="text" name="description"  placeholder="Green men drinking beer on spaceship."><br />
+    <button type="submit">Submit</button>
+  </form>
+</div>
+<!--
+</div>
+-->
+    </section>
+    
+ <!-- scripts -->
+ 
+    </body>
+</html>
