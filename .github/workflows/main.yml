@@ -13,7 +13,7 @@ jobs:
       DATABASE_URL: ${{ secrets.DATABASE_URL}}
       DATABASE_USERNAME: ${{ secrets.DATABASE_USERNAME }}
       DATABASE_PASSWORD: ${{ secrets.DATABASE_PASSWORD }}
-      IMAGE_NAME: botanyhelp/ufos2025spring:0.0.6
+      IMAGE_NAME: "botanyhelp/ufos2025spring:0.0.6"
     steps:
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
