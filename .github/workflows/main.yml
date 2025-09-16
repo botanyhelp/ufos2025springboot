@@ -11,6 +11,22 @@ jobs:
       DATABASE_PASSWORD: ${{ secrets.DATABASE_PASSWORD }}
       IMAGE_NAME: "botanyhelp/ufos2025spring:0.0.6"
 
+    services:
+      mariadb:
+        image: mariadb:10.11
+        env:
+          MARIADB_ROOT_PASSWORD: example
+          MARIADB_DATABASE: ufos2023
+          MARIADB_USER: ${{ secrets.DATABASE_USERNAME }}
+          MARIADB_PASSWORD: ${{ secrets.DATABASE_PASSWORD }}
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mariadb-admin ping --silent"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=3
+
     steps:
       - name: Build Project
         run: echo "Building..."
