@@ -9,7 +9,7 @@ jobs:
       DATABASE_URL: ${{ secrets.DATABASE_URL}}
       DATABASE_USERNAME: ${{ secrets.DATABASE_USERNAME }}
       DATABASE_PASSWORD: ${{ secrets.DATABASE_PASSWORD }}
-      IMAGE_NAME: "botanyhelp/ufos2025spring:latest"
+      IMAGE_NAME: "botanyhelp/ufos2025springboot"
 
     services:
       mariadb:
@@ -63,5 +63,5 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          mvn --batch-mode spring-boot:build-image -DskipTests -Dspring-boot.build-image.imageName=$IMAGE_NAME
-          docker push $IMAGE_NAME
+          mvn --batch-mode spring-boot:build-image -DskipTests -Dspring-boot.build-image.imageName=$IMAGE_NAME:${{ steps.get_version.outputs.current_version }}
+          docker push $IMAGE_NAME:${{ steps.get_version.outputs.current_version }}
