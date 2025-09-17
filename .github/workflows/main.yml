@@ -62,7 +62,6 @@ jobs:
         run: mvn --batch-mode clean test
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@v5
         run: |
           mvn --batch-mode spring-boot:build-image -DskipTests -Dspring-boot.build-image.imageName=$IMAGE_NAME
           docker push $IMAGE_NAME
