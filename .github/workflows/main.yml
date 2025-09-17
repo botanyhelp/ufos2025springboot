@@ -39,7 +39,7 @@ jobs:
         run: echo "::set-output name=current_version::$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)"
 
       - name: Build Project
-        run: echo "Building..."
+        run: echo "Building...with mvn --batch-mode clean test...and then we build image with tag: $IMAGE_NAME:${{ steps.get_version.outputs.current_version }}"
 
       - name: Checkout code
         uses: actions/checkout@v4

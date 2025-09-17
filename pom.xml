@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.jimsuplee</groupId>
 	<artifactId>ufos2025</artifactId>
-	<version>0.0.7-SNAPSHOT</version>
+	<version>0.0.8-SNAPSHOT</version>
 	<name>ufos2025</name>
 	<description>ufos2025 project for Spring Boot</description>
 	<url/>
